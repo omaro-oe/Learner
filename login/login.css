@@ -1,0 +1,144 @@
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-position: center center;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  height: 745px;
+}
+.login-logo{
+  width: 12%;
+  margin: 70px 45% 20% 45%;
+}
+.login-logo img{
+  width: 100%;
+  height: 50px;
+}
+form {
+  width: 100%;
+  padding: 30px;
+  border: #40754c solid 1px;
+  height: 745px;
+}
+.df{
+  display: flex;
+  overflow: hidden;
+}
+.left-side{
+    overflow-y: hidden;
+    width: 65.5%;
+    background:url(./WDTProject/assets/images/4001845.jpg) center center no-repeat ;
+    background-size: cover;
+    position: relative;
+}
+.right-side{
+  width: 34.5%;
+}
+
+input {
+    min-height: 40px;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 10px 10px 10px;
+    color: #111111;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+button {
+  cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 45px;
+    background-color: #10b099;
+    padding: 10px 36px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background-color: #000;
+}
+.error {
+  background: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.success {
+  background: #d4edda;
+  color: #40754c;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.ca {
+  font-size: 14px;
+  display: inline-block;
+  padding: 15px 10px 10px 10px;
+  text-decoration: none;
+  color: #444;
+  margin-left: 136px;
+}
+.ca:hover {
+  text-decoration: underline;
+}
+input:focus{
+  outline: none;
+}
+.contianer{
+  width: 40%;
+  margin: auto;
+  padding:252px 0;
+}
+.sub-title{
+  font-weight: 300;
+  font-size: 40px;
+  color: #fff;
+  line-height: 1.5;
+}
+.title{
+  font-size: 88px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+  text-align: start;
+}
+.info{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff;
+}

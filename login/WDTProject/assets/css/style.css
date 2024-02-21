@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+.df{
+    display: flex;
+}
+.left-side{
+    width: 65.5%;
+    background:url(../images/4001845.jpg) center center no-repeat ;
+    background-size: cover;
+    position: relative;
+}
+.lr-switcher{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+}
+.L{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px 30px 10px 20px;
+    border-radius: 45px 0 0 45px;
+    transition: all 0.4s ease-in-out;
+    border: none;
+    margin-left: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1s;
+}
+.R{
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px 10px 20px;
+    border-radius: 45px 0 0 45px;
+    transition: all 0.4s ease-in-out;
+    border: none;
+    background-color: transparent;
+    margin-left: 2px;
+    cursor: pointer;
+    transition: 1s;
+}
+.active{
+   color: black;
+    background-color: #fff;
+}
+.active-two{
+    color: #000;
+    background-color: #fff;
+}
+
+.contianer{
+    width: 40%;
+    margin: auto;
+    padding:252px 0;
+}
+.sub-title{
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.5;
+}
+.title{
+    font-size: 88px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #fff;
+}
+.right-side{
+    width: 34.5%;
+}
+.form-control{
+    min-height: 40px;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 10px 10px 30px;
+    color: #111111;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-input{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.fa-envelope,.fa-lock,.fa-user{
+    margin-left: 0;
+    font-size: 17px;
+    color: #a1a1a1;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.container-two{
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    height: 28%;
+    overflow: hidden;
+}
+.form-control:focus{
+    outline: none;
+}
+.login-btn{
+    display: flex;
+}
+.btn-login{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 45px;
+    background-color: #10b099;
+    padding: 10px 36px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+label{
+    color: #a4a4a4;
+    font-size: 15px;
+    position: relative;
+    margin-left: 150px;
+    top: 20%;
+}
+.check{
+    position: absolute;
+    right: 48%;
+    top: 25%;
+    width: 16px;
+    height: 16px;
+}
+.checkbox{
+    position: relative;
+}
+.login{
+    /* margin-top: 120px; */
+    /* transform: translateY(-95%); */
+    /* display: none; */
+    transition: 1s ease;
+}
+.register{
+    transform: translateY(75%);
+    transition: 1s ease-out;
+}
+.register-service{
+    margin-left: 80px;
+}
+.check-two{
+    position: absolute;
+    right: 72%;
+    top: 25%;
+    width: 16px;
+    height: 16px;
+}
+.learner-logo{
+    width: 100%;
+}
+.logo-img{
+    width: 12%;
+    margin:70px 45% 0 45%;
+}
+@media (min-width:340px) and (max-width:600px){
+    .df{
+        display: block;
+    }
+    .right-side{
+        width: 100%;
+    }
+    .lr-switcher{
+        position: absolute;
+        right: -32%;
+        display: flex;  
+        margin-top: 45%;
+        background-color: lightgrey;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+    .contianer{
+        display: none;
+    }
+    .L{
+        color: #000;
+        font-size: 18px;
+        padding: 10px 30px 10px 30px;
+        transition: all 0.4s ease-in-out;
+        border: none;
+        margin-left: 0;
+        background-color: transparent;
+        cursor: pointer;
+        transition: 1s;
+        margin-bottom: 0;
+        border-radius: 10px;
+    }
+    .R{
+        color: #000;
+        font-size: 18px;
+        padding: 10px 30px 10px 30px;
+        transition: all 0.4s ease-in-out;
+        border: none;
+        background-color: transparent;
+        margin-left: 2px;
+        cursor: pointer;
+        transition: 1s;
+        border-radius: 10px;
+    }
+    .active{
+        color: #0e9d88;
+        background-color: #e4e4e4;
+    }
+    .active-two{
+        color: #0e9d88;
+        background-color: #e4e4e4;
+    }
+    .btn-login{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 200;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 45px;
+    background-color: #10b099;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+    width: 45%;
+    }
+    label{
+        color: #a4a4a4;
+        font-size: 12px;
+        position: relative;
+        margin-left: 30px;
+        top: 20%;
+    }
+    .check{
+        position: absolute;
+        right: 80%;
+        top: 25%;
+        width: 16px;
+        height: 16px;
+    }
+    .media-block{
+        display: block;
+    }
+    .register-service{
+        margin-left: 30px;
+    }
+    .check-two{
+        position: absolute;
+        right: 92%;
+        top: 6%;
+        width: 16px;
+        height: 16px;
+    }
+    .container-two{
+        height: 200px;
+        margin-top: 40%;
+    }
+}
